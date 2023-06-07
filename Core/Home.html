@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>My Resume</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script>
+        const container = React.createElement("div", {}, 
+
+        React.createElement("div", {style: {backgroundColor:"black", color:"white", height:"50px", display:"flex", justifyContent:"space-between", padding: "0px 20px"}},
+
+            React.createElement("h1",{style:{marginTop:"5px"}},"LOGO"), 
+            React.createElement("div", {style: {display:"flex", gap:"25px", marginTop:"12px"}},
+                React.createElement("h3",{},"Home"), 
+                React.createElement("h3",{},"About"), 
+                React.createElement("h3",{},"Menu"), 
+                React.createElement("h3",{},"Order"), 
+                React.createElement("h3",{},"Contact")
+            )              
+        ),
+
+        React.createElement("h1",{style:{position:"absolute", marginLeft:"48%", fontSize:"50px"}},"Home"),
+        React.createElement("img",{src:"https://images.newscientist.com/wp-content/uploads/2017/05/03180000/dsf6644b.jpg", height:"600px", width:"100%"})
+
+        )
+
+        ReactDOM.render(container, document.getElementById('root'))
+    </script>
+</body>
+</html>

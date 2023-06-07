@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>My Card</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: rgb(32, 32, 32);
+        }
+    </style>
+</head>
+<body>
+    <div id="root" style=" display:flex; flex-direction:column;  align-items:center; margin-left: 380px; width:520px; height:570px; margin-top: 20px; background-color: rgb(112, 111, 111);"></div>
+    
+    <script>
+        const container = React.createElement("div", {style: { backgroundColor:"white", marginTop:"50px", boxshadow:"0 0 10px black", borderRadius:"10px"}}, 
+
+            React.createElement("img",{src:"https://hairstylecamp.com/wp-content/uploads/curly-hair-ideas-for-guys-with-glasses.jpg",width:"400px",height:"300px"}), 
+            React.createElement("h1",{style: {fontWeight:"bold", textAlign:"center", marginTop:"5px"}},"Dima Blover"),
+            React.createElement("h4",{style: {color:"grey", marginTop:"15px", textAlign:"center"}},"UI/UX Designer"),
+            React.createElement("div",{style: {display:"flex", gap:"10px", justifyContent:"space-between", margin:"0px 30px", marginTop:"30px"}},
+                React.createElement("h2",{},"26"),
+                React.createElement("h2",{},"94"),
+                React.createElement("h2",{},"139")
+            ),
+            React.createElement("div",{style: {display:"flex", gap:"13px", justifyContent:"space-between", margin:"10px 20px",color:"grey"}},
+                React.createElement("h4",{},"shoot"),
+                React.createElement("h4",{},"following"),
+                React.createElement("h4",{},"followers")
+            ),       
+
+        )
+
+        ReactDOM.render(container, document.getElementById('root'))
+    </script>
+</body>
+</html>

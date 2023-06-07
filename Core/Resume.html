@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>My Resume</title>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script>
+        const container = React.createElement("div", {}, 
+
+            React.createElement("h1",{},"Saqib"), 
+            React.createElement("h4",{},"Software Developer and Educator"),
+            React.createElement("a",{href:""},"LinkedIn"),
+            React.createElement("a",{href:""},"Github"),
+            React.createElement('hr',null),
+
+            React.createElement('h2',{},"Experience"),
+            React.createElement('h3',{}, "Software developer at Google"),
+            React.createElement('p',{}, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, dolorem tempore earum provident dicta fugiat quo hic pariatur facere aliquam quae ducimus. Animi corporis, repudiandae vero qui culpa voluptatem dolores! Laboriosam ratione, vero voluptas sed illo delectus qui odio accusantium in? Impedit consequatur labore voluptate quidem, voluptates consequuntur maxime sit, nihil, repellat reiciendis iusto facilis quos ratione repudiandae rerum possimus!"),
+            React.createElement("hr", null),
+
+            React.createElement("h3", {}, "Educator at Geekster"),
+            React.createElement('p',{}, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, dolorem tempore earum provident dicta fugiat quo hic pariatur facere aliquam quae ducimus. Animi corporis, repudiandae vero qui culpa voluptatem dolores! Laboriosam ratione, vero voluptas sed illo delectus qui odio accusantium in? Impedit consequatur labore voluptate quidem, voluptates consequuntur maxime sit, nihil, repellat reiciendis iusto facilis quos ratione repudiandae rerum possimus!"),
+            React.createElement("hr", null),
+
+            React.createElement('h2',{},"Skills"),
+            React.createElement('ul',{},
+                React.createElement("li", null, "Java"),
+                React.createElement("li", null, "JavaScript"),
+                React.createElement("li", null, "Python"),
+                React.createElement("li", null, "DSA"),
+                React.createElement("li", null, "System Design"),
+            ),
+            React.createElement("hr", null),
+
+            React.createElement('h2',{},"Hobbies"),
+            React.createElement('ol',{},
+                React.createElement("li", null, "Table Tennis"),
+                React.createElement("li", null, "Cricket"),
+                React.createElement("li", null, "Badminton"),
+                React.createElement("li", null, "Adventure"),
+            ),
+            React.createElement("hr", null),
+
+        )
+
+        ReactDOM.render(container, document.getElementById('root'))
+    </script>
+</body>
+</html>
