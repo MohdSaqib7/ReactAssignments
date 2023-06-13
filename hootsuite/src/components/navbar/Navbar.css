@@ -1,0 +1,27 @@
+#navbar {
+    display: flex;
+    padding: 30px 25px;
+    height: 85px;
+    background-color: whitesmoke;
+}
+#mylogo {
+    width: 85px;
+    height: 40px;
+}
+#left {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 200px;
+    gap:25px;
+}
+#right {
+    display: flex;
+    margin-left: 200px;
+    gap:28px;
+}
+#signup{
+    padding: 5px 10px;
+    background-color: rgb(7, 122, 36);
+    color: whitesmoke;
+    font-size: 15px;
+}
