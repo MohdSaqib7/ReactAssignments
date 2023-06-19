@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Learn Web Dev</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root" style=" display:flex; flex-direction:column;  align-items:center;  background-color: white; padding: 0px 50px;"></div>
+    
+    <script>
+        const container = React.createElement("div", {style: {}}, 
+            React.createElement("h1",{style: {fontWeight:"bold", textAlign:"center", height:"20px", backgroundColor:"grey"}},""),
+            React.createElement("h1",{style: {fontWeight:"bold", textAlign:"center", marginTop:"5px"}},"Learn Web Development"),
+            React.createElement("p",{style: {color:"black", marginTop:"15px", textAlign:"justify", }},
+            `Setting up ReactJs CDN into your project is similar to adding any JS script into your Vanilla JS Project. You need to add your CDN script to the index.html file, and then you are all set to go. Before that, there are a few things you need to pay attention to get going with CDN ReactJs. Lets us dive deep into how to include a CDN in ReactJs.
+            ReactJS is component driven. Everything is a component which is responsible for some functionality. You write small, small components and then combine them together to form big components. This makes the code more readable and understandable. The features that make React powerful and beautiful are:
+            The virtual DOM is a copy of the real DOM. Unlike the real DOM, the virtual DOM does the minimum amount of DOM manipulation to keep components up-to-date. It only updates the part which has been updated.
+            If you look at the above two blocks of code, you will find the first one more familiar as it gives an HTML feel. JSX also increases code readability. Let’s have a look at another example, without JSX and with JSX to get a feel for the code readability.
+            
+            We’ve been talking about one of the great features of React — that is the virtual DOM but wait! What was the JSX in the second feature (above points on feature)? You might have wondered what it was, what was its relation to React, and how it gives us the feel of writing web apps.
+            In the first example, the render function looks like it’s returning HTML code but this is JSX. The first example is a JSX version of the second one. JSX is a JavaScript extension that gives your JS code an HTML look.
+            If you look at the second example, React.createElement is used for creating a react element to represent the react component. The second argument can be null or empty if no props or attributes are needed for the element. The third argument defines what should be inside of it (like any other React element, say <image>, with attribute ‘src’).
+            By looking at the above example, you can understand what I was saying regarding code readability. How easy it is to read code with JSX, right? I think this is enough on JSX and I hope now you are able to better understand the power of JSX in the React world.
+            Now we know what JSX is. But I would like you to go to the previous picture where I wrote that React is all about components. It is component driven. As components are the building blocks of React, let’s explore them.
+            If you write your component in the above way, it is called a Class/ Stateful/Container component. If you think that this is the only way of creating components, think again. Yes, there is another way of creating your component which results in functional / stateless/presentational components. Before moving ahead, let’s see how functional components are written:
+            answer this question if you have this question in your mind on how to separate the logical part from the presentational one. Yes, it is strange that one question answers another question, but you will soon get why I said this.
+            `), 
+            React.createElement("p",{style: {color:"black", marginTop:"15px", textAlign:"justify", }},
+            `Setting up ReactJs CDN into your project is similar to adding any JS script into your Vanilla JS Project. You need to add your CDN script to the index.html file, and then you are all set to go. Before that, there are a few things you need to pay attention to get going with CDN ReactJs. Lets us dive deep into how to include a CDN in ReactJs.
+            ReactJS is component driven. Everything is a component which is responsible for some functionality. You write small, small components and then combine them together to form big components. This makes the code more readable and understandable. The features that make React powerful and beautiful are:
+            The virtual DOM is a copy of the real DOM. Unlike the real DOM, the virtual DOM does the minimum amount of DOM manipulation to keep components up-to-date. It only updates the part which has been updated.
+            If you look at the above two blocks of code, you will find the first one more familiar as it gives an HTML feel. JSX also increases code readability. Let’s have a look at another example, without JSX and with JSX to get a feel for the code readability.
+            
+            write your component in the above way, it is called a Class/ Stateful/Container component. If you think that this is the only way of creating components, think again. Yes, there is another way of creating your component which results in functional / stateless/presentational components. Before moving ahead, let’s see how functional components are written:
+            answer this question if you have this question in your mind on how to separate the logical part from the presentational one. Yes, it is strange that one question answers another question, but you will soon get why I said this.
+            `),           
+        )
+        ReactDOM.render(container, document.getElementById('root'))
+    </script>
+</body>
+</html>

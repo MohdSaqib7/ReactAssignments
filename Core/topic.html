@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Learn Web Dev</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root" style=" display:flex; flex-direction:column;  align-items:center;  background-color: white; padding: 10px 100px;"></div>
+    
+    <script>
+        const container = React.createElement("div", {style: {}}, 
+            React.createElement("h1",{style: {fontWeight:"bold", marginTop:"20px", marginBottom:"40px"}},"Topic Covered"),
+            React.createElement("p",{style: {color:"black", marginTop:"15px", textAlign:"justify", marginBottom:"40px" }},"The following is a list of all the topics we cover in the MDN learning area"),
+            React.createElement("a",{href:"", style: {fontWeight:"bold", textAlign:"center",fontSize:"30px",marginTop:"20px" }},"Getting started with the web"),
+            React.createElement("p",{style: {color:"black", marginTop:"5px", textAlign:"justify",marginBottom:"35px" }},`Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). `),  
+            React.createElement("a",{href:"", style: {fontWeight:"bold", textAlign:"center",fontSize:"30px" }},"HTML-- Structuring the web"),
+            React.createElement("p",{style: {color:"black", marginTop:"5px", textAlign:"justify",marginBottom:"35px" }},`An HTML document is divided into two parts: Head part- The title and metadata of a web document are contained in the head element. Body part- The body element includes the information that you wish to display on a web page. `),
+            React.createElement("a",{href:"", style: {fontWeight:"bold", textAlign:"center",fontSize:"30px" }},"CSS -- Styling the css"),
+            React.createElement("p",{style: {color:"black", marginTop:"5px", textAlign:"justify",marginBottom:"15px" }},`CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. CSS is designed to make style sheets for the web. `),         
+        )
+        ReactDOM.render(container, document.getElementById('root'))
+    </script>
+</body>
+</html>
