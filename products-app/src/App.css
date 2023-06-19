@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#navbar {
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    justify-content: space-between;
+    padding: 5px 50px;
+    padding-right: 150px;
+}
+#navbar h1 {
+    color: rgb(9, 211, 9);
+}
+#menu {
+    padding-top: 6px;
+    display: flex;
+    gap:30px;
+}
+#menu h3:hover {
+    color: rgb(250, 218, 218);
+    font-weight: 200;
+}
+
+
+/* ------------------ */
+.search-area {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.input-area {
+    width:30%;
+    height: 40px;
+    border: 2px solid rgb(104, 103, 103);
+    margin-right: 5px;
+    padding: 2px 8px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.search-button {
+    width:110px;
+    height: 40px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    background-color: rgb(63, 96, 243);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(67, 28, 243);
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    color:rgb(46, 45, 45);
+    height: 38px;
+    box-shadow: 2px 2px 2px rgb(39, 38, 39);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+    gap:20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10px;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgb(82, 80, 80);
+    padding: 2px 5px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(4, 59, 61)
+}
