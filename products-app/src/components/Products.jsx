@@ -30,7 +30,6 @@ function Products() {
           <button className='search-button' onClick={apiCall}>Search</button>
         </div>
         <div className='container'>
-        {console.log(products)}
         {
           products.length===0 ? <p style={{color:"red"}}> currently Not available</p> : products.map((val,idx)=>{
             return (

@@ -1,0 +1,20 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#guideUrl {
+  color: rgb(43, 43, 248);
+  font-size: 14px;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 1px 5px ;
+  font-size: 15px;
+}
+#tablehead th{
+  background-color: rgb(124, 243, 176);
+}
