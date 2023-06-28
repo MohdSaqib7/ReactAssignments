@@ -1,10 +1,10 @@
 import './App.css';
-import Form from './form/Form';
+import Timer from './timer/Timer';
 
 function App() {
   return (
     <div className="App">
-        <Form />
+        <Timer />
     </div>
   );
 }

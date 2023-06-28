@@ -1,33 +1,40 @@
-// import React, { useState } from 'react'
+import { useState, useRef } from "react";
 
-// function Timer() {
-//     const[intial, update] = useState(0);
+function Timer(props) {
+  const [state, setState] = useState(0);
+  let timerid = useRef(0); 
 
-//     let count;
-//     function startfun(){
-//         setInterval(()=>{
-//             update(intial+1)
-//         },1000)
-//     }
+  const startTimer = () => {
+    timerid.current = setInterval(() => {
+      setState((prevState) => prevState + 1);
+    }, 1000);
+  };
 
-//     function stopfun(){
+  const stopTimer = () => {
+    clearInterval(timerid.current);
+  };
 
-//     }
+  const resetTimer = ()=>{
+    setState(0)
+    clearInterval(timerid.current)
+  }
 
-//     function resetfun(){
+  return (
+    <div
+      style={{
+        margin: "50px auto",
+        boxShadow: "0 0 10px black",
+        padding: "50px",
+        width: "500px",
+        textAlign: "center",
+      }}
+    >
+      <h2>Timer : {state}</h2>
+      <button onClick={startTimer}>Start</button>&nbsp;&nbsp;&nbsp;
+      <button onClick={stopTimer}>Stop</button>&nbsp;&nbsp;&nbsp;
+      <button onClick={resetTimer}>Reset</button>
+    </div>
+  );
+}
 
-//     }
-
-//   return (
-//     <div className='timer'>
-//         <h1>Timer: {intial}</h1>
-//         <button onClick={}>Start</button>
-//         <button onClick={}>Stop</button>
-//         <button onClick={}>Reset</button>
-//     </div>
-//   )
-// }
-
-
-
-// export default Timer
+export default Timer;
