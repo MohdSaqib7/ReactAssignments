@@ -31,12 +31,11 @@ function Products() {
         </div>
         <div className='container'>
         {
-          products.length===0 ? <p style={{color:"red"}}> currently Not available</p> : products.map((val,idx)=>{
+          products.length===0 ? <p style={{color:"red"}}> LOADING ....</p> : products.map((val,idx)=>{
             return (
-            <Card name={val.title} image={val.images[0]} price={val.price}  key={idx}/>
+            <Card name={val.title} image={val.images[0]} price={val.price} buy={"Buy"} adCrt={"Add to cart"} id={val.id}  key={idx}/>
             )
-          })
-          
+          }) 
         }
       </div>
     </div>
