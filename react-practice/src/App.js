@@ -1,10 +1,11 @@
 import './App.css';
-import Timer from './timer/Timer';
+import Home from './photoApp/Home';
+
 
 function App() {
   return (
     <div className="App">
-        <Timer />
+        <Home />
     </div>
   );
 }
