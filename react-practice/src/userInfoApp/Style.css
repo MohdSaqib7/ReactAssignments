@@ -1,0 +1,50 @@
+#navbar {
+    display: flex;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    justify-content: space-between;
+    padding: 5px 50px;
+    padding-right: 50px;
+}
+#navbar h1 {
+    color: rgb(9, 211, 9);
+}
+#menu {
+    padding-top: 6px;
+    display: flex;
+    gap:30px;
+}
+#menu h3:hover {
+    color: rgb(250, 218, 218);
+    font-weight: 200;
+}
+
+.heading {
+    padding: 20px 40px;
+}
+.gender {
+    padding-left: 50px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.gender label {
+    margin-right: 30px;
+    font-size: larger;
+}
+.container {
+    padding: 10px 50px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 1px 5px ;
+    font-size: 15px;
+  }
+  #tablehead th{
+    background-color: rgb(124, 243, 176);
+  }
