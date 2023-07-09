@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "smithjohn9",
+      "name": "John Smith",
+      "email": "john07@example.com",
+      "phone": "013-2222-78",
+      "website": "https://vertaxis.org",
+      "address": {
+        "street": "Lombard Street",
+        "suite": "Omega B",
+        "city": "Darwin",
+        "zipcode": "02398"
+      },
+      "company_name": "Innovassor"
+    },
+    {
+      "id": 2,
+      "username": "purpleduck515",
+      "name": "Lumi Hautala",
+      "email": "lumi.hautala@example.com",
+      "phone": "041-955-86-79",
+      "website": "https://lumideck.in",
+      "address": {
+        "street": "Santa boulevard",
+        "suite": "Pine Avenue",
+        "city": "Cadillac",
+        "zipcode": "54001"
+      },
+      "company_name": "Atlassian"
+    },
+    {
+      "id": 3,
+      "username": "crazyostrich368",
+      "name": "Solange Roux",
+      "email": "sola.roux@example.com",
+      "phone": "078 648 67 14",
+      "website": "https://roux.org",
+      "address": {
+        "street": "Embarcadero Street",
+        "suite": "San Francisco’s",
+        "city": "Humlikon",
+        "zipcode": "740123"
+      },
+      "company_name": "molingo"
+    },
+    {
+      "id": 4,
+      "username": "hollaranbeer",
+      "name": "Ranbir Holla",
+      "email": "ranbir3@example.com",
+      "phone": "9078036987",
+      "website": "https://hollasquare.org",
+      "address": {
+        "street": "Santa boulevard",
+        "suite": "Omega B",
+        "city": "Cadillac",
+        "zipcode": "80065"
+      },
+      "company_name": "Square Holla"
+    },
+    {
+      "id": 5,
+      "username": "stanvic07",
+      "name": "Dave Gonzales",
+      "email": "dave.gz@example.com",
+      "phone": "0494-457-993",
+      "website": "https://stanvicpr.in",
+      "address": {
+        "street": "Embarcadero Street",
+        "suite": "Pine Avenue",
+        "city": "Darwin",
+        "zipcode": "247564"
+      },
+      "company_name": "Dave Wizard"
+    },
+    {
+      "id": 6,
+      "username": "morgen778",
+      "name": "Eion Morgen",
+      "email": "morgen123@example.com",
+      "phone": "0189-675-8884",
+      "website": "https://morgensky.org",
+      "address": {
+        "street": "Santa boulevard",
+        "suite": "Pine Avenue",
+        "city": "Gorodishch",
+        "zipcode": "12098"
+      },
+      "company_name": "Sky Kick"
+    },
+    {
+      "id": 7,
+      "username": "elioneol78",
+      "name": "Elio Noel",
+      "email": "elio.noel@example.com",
+      "phone": "06-68-99-83-42",
+      "website": "https://techcrunch.in",
+      "address": {
+        "street": "Lombard Street",
+        "suite": "Omega B",
+        "city": "Queanbeya",
+        "zipcode": "111678"
+      },
+      "company_name": "Tech Crunch"
+    },
+    {
+      "id": 8,
+      "username": "meyerjhoni",
+      "name": "Johnni Meyer",
+      "email": "j.meyer@example.com",
+      "phone": "0494-200-959",
+      "website": "https://mayers.it",
+      "address": {
+        "street": "Embarcadero Street",
+        "suite": "San Francisco’s",
+        "city": "Gorodishch",
+        "zipcode": "745401"
+      },
+      "company_name": "Paypal"
+    },
+    {
+      "id": 9,
+      "username": "tuomiakseli",
+      "name": "Akseli kavin",
+      "email": "akseli.t@example.com",
+      "phone": "045-346-10-04",
+      "website": "https://akselikavin.io",
+      "address": {
+        "street": "Santa boulevard",
+        "suite": "Pine Avenue",
+        "city": "Humlikon",
+        "zipcode": "98001"
+      },
+      "company_name": "Synthesia"
+    },
+    {
+      "id": 10,
+      "username": "elmerfrank89",
+      "name": "Elmer Franklin",
+      "email": "franklin@example.com",
+      "phone": "081-107-0223",
+      "website": "https://franklin.in",
+      "address": {
+        "street": "Lombard Street",
+        "suite": "Omega B",
+        "city": "Darwin",
+        "zipcode": "51001"
+      },
+      "company_name": "Drop Suite"
+    },
+    {
+      "id": 11,
+      "username": "potterharzy",
+      "name": "Malik",
+      "email": "kavin6870@gmail.com",
+      "phone": "09022222",
+      "website": "https://codeharry.org",
+      "address": {
+        "street": "Embarcadero Street",
+        "suite": "San Francisco",
+        "city": "Humlikon",
+        "zipcode": "740123"
+      },
+      "company_name": "calefornia"
+    },
+    {
+      "id": 12,
+      "username": "elmerfrank89",
+      "name": "Elmer Franklin",
+      "email": "franklin@example.com",
+      "phone": "081-107-0223",
+      "website": "https://franklin.in",
+      "address": {
+        "street": "Lombard Street",
+        "suite": "Omega B",
+        "city": "Darwin",
+        "zipcode": "51001"
+      },
+      "company_name": "Drop Suite"
+    }
+  ]
+}

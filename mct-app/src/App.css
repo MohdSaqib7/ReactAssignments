@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home {
+    padding: 50px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.card {
+    border: 1px solid black;
+    width: 180px;
+    height: 229px;
+    border-radius: 3px;
+}
+.image {
+    background-color: rgb(250, 249, 249);
+    text-align: center;
+}
+.image img {
+    width: 120px;
+    height: 95px;
+}
+.naming {
+    text-align: center;
+}
+.card h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(72, 5, 134);
+}
+.info {
+    display: flex;
+    margin: 5px 5px;
+}
+.info p{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.menu {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 0px 8px;
+    background-color: whitesmoke;
+}
+.menu button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.menu button:hover {
+    color: blue;
+}
+.inputcontainer {
+    border: 1px solid black;
+    box-shadow: 20px 20px 50px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.inputcontainer h2{
+    margin: 10px 5px;
+}
+.fields {
+    margin: 5px 0px;
+}
+
+.fields label {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.website label{
+    font-style:italic;
+    margin-right: 7px;
+}
+.fields input {
+    padding: 5px 8px;
+}
+.inputcontainer button {
+    margin: 5px 42%;
+    padding: 3px 5px;
+    font-size: larger;
+    background-color: rgb(70,129,244);
+    border-radius: 3px;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
