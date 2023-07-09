@@ -49,7 +49,7 @@ export default Card
 
 
 function removeUser(id, name, setUserData){
-    fetch(`http://localhost:3001/users/${id}`,{
+    fetch(`https://mydata-fb7x.onrender.com/users/${id}`,{
         method:'DELETE'
     }).then((result)=>{
         confirmAlert({
@@ -101,7 +101,7 @@ function editUser(id, setUserData){
       console.log("run..")
     },100)
 
-    fetch("http://localhost:3001/users/"+id,{
+    fetch("https://mydata-fb7x.onrender.com/users/"+id,{
       method:"PUT",
       headers:{"content-type":"application/json"},
       body:JSON.stringify(userCreate)

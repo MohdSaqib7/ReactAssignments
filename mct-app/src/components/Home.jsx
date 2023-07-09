@@ -27,7 +27,7 @@ export default Home
 
 export function apiCall(setUserData){
   axios
-        .get("http://localhost:3001/users")
+        .get("https://mydata-fb7x.onrender.com/users")
         .then(data => setUserData(data.data))
         .catch(error => console.log(error));
 }
