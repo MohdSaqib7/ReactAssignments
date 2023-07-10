@@ -7,6 +7,7 @@ Hi, In this project I used concepts like--
 3. UseEffect
 4. Axios
 5. json-server
+6. confirmAlert
 
 -------COMPONENTS Explanation-------------------
 
